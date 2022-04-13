@@ -6,6 +6,7 @@ import (
 )
 
 func main() {
+	fmt.Println("This app is running on src\\main path!")
 	varGHSecret := os.Getenv("VAR_FROM_GH_SECRET")
 	if varGHSecret == "ThisIsMySecretValue" {
 		fmt.Println("The secret variable is correct!")

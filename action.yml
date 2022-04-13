@@ -3,5 +3,5 @@ description: Sample github action
 runs:
   using: composite
   steps:
-    - run: go run ${{ github.action_path }}/main.go
+    - run: go run ${{ github.action_path }}/src/gh-main/main.go
       shell: bash
